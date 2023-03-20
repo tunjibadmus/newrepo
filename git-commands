@@ -1,0 +1,64 @@
+ 179  git clone git@github.com:tunjibadmus/ansible-tutorial.git
+  180  which git
+  181  ls
+  182  git init myrepo
+  183  ls
+  184  cd myrepo/
+  185  ls
+  186  ls -al
+  187  ls .git/
+  188  git clone git@github.com:tunjibadmus/ansible-tutorial.git
+  189  ls -al
+  190  vim hello.txt
+  191  ls
+  192  git status hello.txt
+  193  git add hello.txt
+  194  git status
+  195  git config --global user.name "Adetunji Badmus"
+  196  git config --global user.email "abadmus095@gmail.com"
+  197  git commit -m "testing commit"
+  198  git status
+  199  vim hello.txt
+  200  git status
+  201  git diff hello.txt
+  202  git add hello.txt
+  203  git status
+  204  git commit
+  205  git log --oneline
+  206  cat hello.txt
+  207  git revert fa3fcd4
+  208  cat hello.txt
+  209  cd
+  210  git clone https://github.com/tunjibadmus/ansible-tutorial.git
+  211  ls
+  212  cd ansible-tutorial/
+  213  ls
+  214  cat dir.yml
+  215  cd .git/
+  216  ls
+  217  ca config
+  218  vim config
+  219  cd -
+  220  cd -
+  221  cd
+  222  ls .git
+  223  cd .git
+  224  ls -al
+  225  ls
+  226  cd myrepo/
+  227  ls -al
+  228  git remote add origin https://github.com/tunjibadmus/myrepo.git
+  229  cat .git/config
+  230  git push origin master
+  231  history
+  232  ls
+  233  vim hello.txt
+  234  git status
+  235  git add hello.txt
+  236  git remote add origin https://github.com/tunjibadmus/myrepo.git
+  237  git remote add origin https://github.com/tunjibadmus/myrepo2.git
+  238  git remote add origin https://github.com/tunjibadmus/git_commands
+  239  git remote add origin https://github.com/tunjibadmus/git_commands
+  240  cat .git/config
+  241  git status
+  242  vim git_commands
