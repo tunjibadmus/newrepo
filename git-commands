@@ -1,6 +1,7 @@
- 179  git clone git@github.com:tunjibadmus/ansible-tutorial.git
-  180  which git
-  181  ls
+
+
+removed unused commands
+
   182  git init myrepo
   183  ls
   184  cd myrepo/
